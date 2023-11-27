@@ -1,7 +1,7 @@
 import ThemeToggle from "./ThemeToggle";
 import SearchForm from "./SearchForm";
 import Gallery from "./Gallery";
-import { useGlobalContext } from "./Context";
+import { useGlobalContext } from "./context";
 import { BsFillSunFill, BsFillMoonFill } from "react-icons/bs";
 
 const App = () => {
