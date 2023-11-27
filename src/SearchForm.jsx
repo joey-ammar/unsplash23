@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useGlobalContext } from "./Context";
+import { useGlobalContext } from "./context";
 
 const SearchForm = () => {
   const { searchTerm, setSearchTerm } = useGlobalContext();
